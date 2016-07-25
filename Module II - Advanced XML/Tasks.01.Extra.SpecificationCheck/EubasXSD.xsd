@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema
+  targetNamespace="https://schema.wcsc.com/cob/specification/eubas"
+  attributeFormDefault="unqualified"
+  elementFormDefault="qualified"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:eubas="https://schema.wcsc.com/cob/specification/eubas">
+  
+  <xs:element name="Name">
+    <xs:simpleType>
+      <xs:restriction  base="xs:string">
+        <xs:pattern value="[\w\s]{4,6}"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="SpecificationContextTrigger" type="xs:string"/>
+</xs:schema>

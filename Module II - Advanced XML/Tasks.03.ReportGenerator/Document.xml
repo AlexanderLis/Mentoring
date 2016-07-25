@@ -1,0 +1,1891 @@
+<?xml version="1.0" encoding="utf-8"?>
+<specification-list xmlns="http://cob.wk/specification" xmlns:eubas="https://schema.wcsc.com/cob/specification/eubas" xmlns:bas96="https://schema.wcsc.com/cob/specification/bas96">
+  <specification Enabled="false" Recomended="false">
+    <FormID>1000</FormID>
+    <Category>Omsättningstillgångar</Category>
+    <Name>
+      <eubas:Name>1900</eubas:Name>
+      <bas96:Name>1000</bas96:Name>
+    </Name>
+    <Caption>Kassa och bank</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1900-1999</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1000-1099</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{8A33B1A1-8A28-4D52-A30B-B5D8DDA2CFC4},{8561A23A-D7AA-4812-89CF-FECDB4AE1DB8},{E3414F06-C0F1-47B3-AEA3-E470D299F522}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för kassa och bank</Hint>
+    <Description>Bilagan används för sammanställning av likvida medel.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>1010</FormID>
+    <Category>Omsättningstillgångar</Category>
+    <Name>
+      <eubas:Name>1910</eubas:Name>
+      <bas96:Name>1010</bas96:Name>
+    </Name>
+    <Caption>Kassainventering</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1900-1919</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1010-1019</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{8A33B1A1-8A28-4D52-A30B-B5D8DDA2CFC4},{8561A23A-D7AA-4812-89CF-FECDB4AE1DB8},{E3414F06-C0F1-47B3-AEA3-E470D299F522}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för kassainventering</Hint>
+    <Description>Bilagans första sida är ett inventeringsverktyg, där du fyller i resultatet av kassainventeringen på bokslutsdagen. På bilagans andra sida specificierar du kassainventeringen.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>1020</FormID>
+    <Category>Omsättningstillgångar</Category>
+    <Name>
+      <eubas:Name>1920</eubas:Name>
+      <bas96:Name>1020</bas96:Name>
+    </Name>
+    <Caption>Avstämning plusgiro</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1920-1929</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1020-1029</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{8A33B1A1-8A28-4D52-A30B-B5D8DDA2CFC4},{8561A23A-D7AA-4812-89CF-FECDB4AE1DB8},{E3414F06-C0F1-47B3-AEA3-E470D299F522}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för avstämning av plusgiro</Hint>
+    <Description>Bilagan används för att upprätta och dokumentera gjorda avstämningar av huvudbokskonto mot kontoutdrag.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>1040</FormID>
+    <Category>Omsättningstillgångar</Category>
+    <Name>
+      <eubas:Name>1930</eubas:Name>
+      <bas96:Name>1040</bas96:Name>
+    </Name>
+    <Caption>Avstämning checkräkning</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1930-1979</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1030-1059</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{8A33B1A1-8A28-4D52-A30B-B5D8DDA2CFC4},{8561A23A-D7AA-4812-89CF-FECDB4AE1DB8},{E3414F06-C0F1-47B3-AEA3-E470D299F522}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för avstämning checkräkning</Hint>
+    <Description>Bilagan används för att upprätta och dokumentera gjorda avstämningar av huvudbokskonto mot kontoutdrag.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="false" Recomended="false">
+    <FormID>1100</FormID>
+    <Category>Omsättningstillgångar</Category>
+    <Name>
+      <eubas:Name>1800</eubas:Name>
+      <bas96:Name>1100</bas96:Name>
+    </Name>
+    <Caption>Kortfristiga placeringar värdepapper</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1800-1839,1880-1899</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1100-1149,1160-1191,1197-1198</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{0528A63B-64AB-486C-8A10-96828759B781},{044E28D5-732C-4C17-9454-0C1042D64538}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för kortfristiga placeringar i värdepapper</Hint>
+    <Description>Bilagan används för att redovisa kortfristiga placeringar av likvida medel i värdepapper.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>1120</FormID>
+    <Category>Omsättningstillgångar</Category>
+    <Name>
+      <eubas:Name>1810</eubas:Name>
+      <bas96:Name>1120</bas96:Name>
+    </Name>
+    <Caption>Andelar i börsnoterade bolag</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1800-1819,1820-1839,1860-1869,1880-1899</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1100-1129,1160-1191,1196,1197-1198</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{0528A63B-64AB-486C-8A10-96828759B781},{044E28D5-732C-4C17-9454-0C1042D64538}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för andelar i börsnoterade bolag</Hint>
+    <Description>Bilagan för Andeler i börsnoterade bolag används för att beräkna nedskrivning av kortfristiga placeringar. Uppgifter förs över till not i årsredovisningen.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>121A</FormID>
+    <Category>Omsättningstillgångar</Category>
+    <Name>
+      <eubas:Name>151A </eubas:Name>
+      <bas96:Name>121A </bas96:Name>
+    </Name>
+    <Caption>Kundfordringar (moms specificerad)</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1500-1539,1550-1559,1580-1589</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1200-1259,1270-1299</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{D45FF254-E8B1-440C-BF7F-ABFFAD7E181B},{B6A3E4C5-5FD4-44E7-92F3-F66FAD109869},{39175143-B15E-42BC-B1ED-18991114A1F3}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för specifikation av kundfordringar, specificerar moms</Hint>
+    <Description>Bilagan används för att specificera kundfordringar med momsen specificerad. </Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>121B</FormID>
+    <Category>Omsättningstillgångar</Category>
+    <Name>
+      <eubas:Name>151B </eubas:Name>
+      <bas96:Name>121B </bas96:Name>
+    </Name>
+    <Caption>Kundfordringar (moms ospecificerad)</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1500-1539,1550-1559,1580-1589</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1200-1259,1270-1299</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{D45FF254-E8B1-440C-BF7F-ABFFAD7E181B},{B6A3E4C5-5FD4-44E7-92F3-F66FAD109869},{39175143-B15E-42BC-B1ED-18991114A1F3}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för specifikation av kundfordringar, moms specificeras ej</Hint>
+    <Description>Bilagan används för att specificera kundfordringar inklusive moms. </Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>121C</FormID>
+    <Category>Omsättningstillgångar</Category>
+    <Name>
+      <eubas:Name>151C </eubas:Name>
+      <bas96:Name>121C </bas96:Name>
+    </Name>
+    <Caption>Kundfordringar (omräkning av utländsk valuta)</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1500-1539,1550-1559,1580-1589</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1200-1259,1270-1299</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{D45FF254-E8B1-440C-BF7F-ABFFAD7E181B},{B6A3E4C5-5FD4-44E7-92F3-F66FAD109869},{39175143-B15E-42BC-B1ED-18991114A1F3}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för specifikation av kundfordringar, vid omräkning av utländsk valuta</Hint>
+    <Description>På denna bilaga sammanställs kundfordringar i utländsk valuta. Här sammanställs även vad som är koncerninternt.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>1260</FormID>
+    <Category>Omsättningstillgångar</Category>
+    <Name>
+      <eubas:Name>1560</eubas:Name>
+      <bas96:Name>1260</bas96:Name>
+    </Name>
+    <Caption>Kundfordringar hos koncernföretag</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1560-1569,1570-1579</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1260-1269</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{D45FF254-E8B1-440C-BF7F-ABFFAD7E181B},{5788AE9D-3773-4E84-A412-734356DBFBEA},{7CD32F3C-268D-4F69-9647-9C3FC31BA19D}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för specifikation av kundfordringar hos koncernföretag</Hint>
+    <Description>Bilagan används för att specificera kundfordringar hos koncernföretag.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>1290</FormID>
+    <Category>Omsättningstillgångar</Category>
+    <Name>
+      <eubas:Name>1590</eubas:Name>
+      <bas96:Name>1290</bas96:Name>
+    </Name>
+    <Caption>Nedskrivning av kundfordringar</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1500-1539,1550-1579,1580-1589</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1200-1269,1290-1299</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{D45FF254-E8B1-440C-BF7F-ABFFAD7E181B},{B6A3E4C5-5FD4-44E7-92F3-F66FAD109869},{39175143-B15E-42BC-B1ED-18991114A1F3}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för specifikation av osäkra kundfordringar</Hint>
+    <Description>Bilagan används för att specificera osäkra kundfordringar.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="false" Recomended="false">
+    <FormID>1300</FormID>
+    <Category>Omsättningstillgångar</Category>
+    <Name>
+      <eubas:Name>1700</eubas:Name>
+      <bas96:Name>1300</bas96:Name>
+    </Name>
+    <Caption>Förutbetalda kostnader/upplupna intäkter</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1700-1799</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1300-1399</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{8B6514A5-2C28-402C-A921-48FA1F64E19E},{8B6514A5-2C28-402C-A921-48FA1F64E19E}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för upplupna intäkter och förutbetalda kostnader</Hint>
+    <Description>Bilagan används för sammanställning av förutbetalda kostnader och upplupna intäkter. Uppgifter förs över till not i årsredovisningen.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>1360</FormID>
+    <Category>Omsättningstillgångar</Category>
+    <Name>
+      <eubas:Name>1760</eubas:Name>
+      <bas96:Name>1360</bas96:Name>
+    </Name>
+    <Caption>Upplupna ränteintäkter</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1760-1769,1790-1799</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1350-1359,1360-1369</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{8B6514A5-2C28-402C-A921-48FA1F64E19E},{8B6514A5-2C28-402C-A921-48FA1F64E19E}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för beräkning av upplupna ränteintäkter</Hint>
+    <Description>Bilagan används för att beräkna upplupna ränteintäkter.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>139A</FormID>
+    <Category>Omsättningstillgångar</Category>
+    <Name>
+      <eubas:Name>179A </eubas:Name>
+      <bas96:Name>139A </bas96:Name>
+    </Name>
+    <Caption>Förutbetalda kostnader</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1700-1749,1770-1779,1790-1799</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1300-1319</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{8B6514A5-2C28-402C-A921-48FA1F64E19E}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för förutbetalda kostnader</Hint>
+    <Description>Bilagan används för att beräkna förutbetalda kostnader. Uppgifter förs över till not i årshandlingen.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>139B</FormID>
+    <Category>Omsättningstillgångar</Category>
+    <Name>
+      <eubas:Name>179B </eubas:Name>
+      <bas96:Name>139B </bas96:Name>
+    </Name>
+    <Caption>Upplupna intäkter</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1750-1769,1780-1789,1790-1799</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1350-1359</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{8B6514A5-2C28-402C-A921-48FA1F64E19E}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för upplupna intäkter</Hint>
+    <Description>Bilagan används för att beräkna upplupna intäkter såsom ränteintäkt som tillhör nästa räkenskapsår. Uppgifter förs över till not i årsredovisningen.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="false" Recomended="false">
+    <FormID>1400</FormID>
+    <Category>Omsättningstillgångar</Category>
+    <Name>
+      <eubas:Name>1600</eubas:Name>
+      <bas96:Name>1400</bas96:Name>
+    </Name>
+    <Caption>Övriga kortfristiga fordringar</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1610-1659,1680-1689</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1400-1443,1445-1459,1480-1499</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{8BAF8A03-390A-41ED-9B1E-C1D76EA07139},{D0A7EDB3-F14F-409F-B7E8-5B6C47542AA9}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för övriga kortfristiga fordringar</Hint>
+    <Description>Bilagan används för sammanställning av kortfristiga fordringar.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>150A</FormID>
+    <Category>Omsättningstillgångar</Category>
+    <Name>
+      <eubas:Name>140A </eubas:Name>
+      <bas96:Name>150A </bas96:Name>
+    </Name>
+    <Caption>Lager i jordbruk</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1400-1499</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1500-1539,1560-1569,1590-1599</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{54717326-460E-4F90-B9F1-D99512E0847E},{7BDEE842-2466-49D7-ADC1-E6E7EE7ADD18},{E241FCA3-AB71-470D-B270-314708865DE5}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för lager i jordbruk</Hint>
+    <Description>Bilagan används för att specificera köpt och producerat lager.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>150B</FormID>
+    <Category>Omsättningstillgångar</Category>
+    <Name>
+      <eubas:Name>140B </eubas:Name>
+      <bas96:Name>150B </bas96:Name>
+    </Name>
+    <Caption>Lager i jordbruk, djur</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1400-1499</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1500-1539,1560-1569,1590-1599</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{54717326-460E-4F90-B9F1-D99512E0847E},{8A4A9F25-AF68-4BF1-9DCD-0F33722A3B61}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för lager i jordbruk, djur</Hint>
+    <Description>Bilagan används för att specificera djur i jordbruk.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>1510</FormID>
+    <Category>Omsättningstillgångar</Category>
+    <Name>
+      <eubas:Name>1400</eubas:Name>
+      <bas96:Name>1510</bas96:Name>
+    </Name>
+    <Caption>Varulager värderingslista</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1400-1429,1430-1469,1490-1499</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1500-1539,1560-1569,1590-1599</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{54717326-460E-4F90-B9F1-D99512E0847E},{7BDEE842-2466-49D7-ADC1-E6E7EE7ADD18},{E241FCA3-AB71-470D-B270-314708865DE5}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för värdering av varulager</Hint>
+    <Description>Bilagan används för att redovisa företagets lager av råvaror, halvfabrikat och färdiga varor på bokslutsdagen</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>151A</FormID>
+    <Category>Omsättningstillgångar</Category>
+    <Name>
+      <eubas:Name>140C </eubas:Name>
+      <bas96:Name>151A </bas96:Name>
+    </Name>
+    <Caption>Lagerinventeringsintyg</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1400-1469,1490-1499</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1500-1539,1590-1599</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{54717326-460E-4F90-B9F1-D99512E0847E},{7BDEE842-2466-49D7-ADC1-E6E7EE7ADD18},{E241FCA3-AB71-470D-B270-314708865DE5}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för lagerinventeringsintyg</Hint>
+    <Description>Bilagan är ett inventeringsintyg där du fyller i resultatet av kassainventeringen på bokslutsdagen.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>1550</FormID>
+    <Category>Omsättningstillgångar</Category>
+    <Name>
+      <eubas:Name>1470</eubas:Name>
+      <bas96:Name>1550</bas96:Name>
+    </Name>
+    <Caption>Pågående arbeten</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1470-1479,2430-2439</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1550-1559,1598</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{54717326-460E-4F90-B9F1-D99512E0847E},{7BDEE842-2466-49D7-ADC1-E6E7EE7ADD18},{E241FCA3-AB71-470D-B270-314708865DE5}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för specifikation av pågående arbete</Hint>
+    <Description>Bilagan specifficerar pågående arbeten. Uppgifter förs över till not i årshandlingen.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="false" Recomended="false">
+    <FormID>1600</FormID>
+    <Category>Anläggningstillgångar</Category>
+    <Name>
+      <eubas:Name>1300</eubas:Name>
+      <bas96:Name>1600</bas96:Name>
+    </Name>
+    <Caption>Långfristiga placeringar i värdepapper</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1300-1389</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1620-1699</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{0A4503D0-249E-433A-ABA9-739A522F94A9}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för långfristiga placeringar i värdepapper</Hint>
+    <Description>Bilagan används som sammanställning eller specifikation av diverse långfristiga placeringar i värdepapper.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>1620</FormID>
+    <Category>Anläggningstillgångar</Category>
+    <Name>
+      <eubas:Name>1350</eubas:Name>
+      <bas96:Name>1620</bas96:Name>
+    </Name>
+    <Caption>Andelar och värdepapper i andra företag</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1300-1319,1330-1359</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1620-1629,1690-1699</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{0A4503D0-249E-433A-ABA9-739A522F94A9}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för specifikation av aktier och andelar, långfristigt innehav</Hint>
+    <Description>Bilagan används för att specificera långfristiga placeringar i aktier och andelar. Uppgifter förs över till not i årshandlingen.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>1630</FormID>
+    <Category>Anläggningstillgångar</Category>
+    <Name>
+      <eubas:Name>1354</eubas:Name>
+      <bas96:Name>1630</bas96:Name>
+    </Name>
+    <Caption>Obligationer</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1350-1354</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1630-1639,1690-1699</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{0A4503D0-249E-433A-ABA9-739A522F94A9}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för obligationer och värdepapper, långfristigt innehav</Hint>
+    <Description>Bilagan används för att specificera långfristiga placeringar av obligationer och andra värdepapper. Uppgifter förs över till not i årsredovisningen.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>1640B</FormID>
+    <Category>Anläggningstillgångar</Category>
+    <Name>
+      <eubas:Name>1360</eubas:Name>
+      <bas96:Name>1640B</bas96:Name>
+    </Name>
+    <Caption>Lån till delägare eller närstående</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1360-1369</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1640-1649,1690-1699</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{A86AB343-AA40-40B3-82A7-288E4A16A568}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för specifikation av lån till närstående</Hint>
+    <Description>Bilagan används för att göra en förteckning över lån till närstående som har lämnats enligt undantagen från förbjudna lån i aktiebolagslagen.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>1650</FormID>
+    <Category>Anläggningstillgångar</Category>
+    <Name>
+      <eubas:Name>1380</eubas:Name>
+      <bas96:Name>1650</bas96:Name>
+    </Name>
+    <Caption>Andra långfristiga fordringar</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1380-1389</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1650-1659,1690-1699</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{F6D09973-1E59-4B7E-BE2B-C73D37F7D4B2}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för specifikation av övriga långfristiga fordringar</Hint>
+    <Description>Bilagan används för att upprätta en förteckning över långfristiga fordringar.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>1660</FormID>
+    <Category>Anläggningstillgångar</Category>
+    <Name>
+      <eubas:Name>1320</eubas:Name>
+      <bas96:Name>1660</bas96:Name>
+    </Name>
+    <Caption>Långfristiga fordringar hos koncernföretag</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1320-1329</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1660-1669,1690-1699</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{7C6F511E-B50E-42FF-B6BE-10AE3481006A}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för specifikation av långfristiga fordringar hos koncernföretag</Hint>
+    <Description>Bilagan används för långfristiga fordringar hos koncernföretag.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>1700</FormID>
+    <Category>Anläggningstillgångar</Category>
+    <Name>
+      <eubas:Name>1000</eubas:Name>
+      <bas96:Name>1700</bas96:Name>
+    </Name>
+    <Caption>Immateriella tillgångar, skattemässig avskrivning</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1000-1089</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1700-1799</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{0D64FB5F-84F4-484B-B4B7-202E806C64D1},{02597F87-C7C3-4CA5-B79D-11EEB49E7B27}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för beräkning av avskrivningar över plan och skattemässigt restvärde</Hint>
+    <Description>Bilagan används för att beräkna den skattemässiga avskrivningen på immateriella tillgångar.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>1701</FormID>
+    <Category>Anläggningstillgångar</Category>
+    <Name>
+      <eubas:Name>1001</eubas:Name>
+      <bas96:Name>1701</bas96:Name>
+    </Name>
+    <Caption>Immateriella tillgångar, periodens anskaffningar</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1000-1089</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1700-1799</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{0D64FB5F-84F4-484B-B4B7-202E806C64D1},{02597F87-C7C3-4CA5-B79D-11EEB49E7B27}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för periodens anskaffningar av immateriella tillgångar</Hint>
+    <Description>Bilagan används för att specificera årets inköp av immateriella tillgångar. Uppgifter hämtas automatiskt från anläggningsregistret, när det används.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>1702</FormID>
+    <Category>Anläggningstillgångar</Category>
+    <Name>
+      <eubas:Name>1002</eubas:Name>
+      <bas96:Name>1702</bas96:Name>
+    </Name>
+    <Caption>Immateriella tillgångar, periodens försäljningar/utrangeringar</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1000-1089</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1700-1799</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{0D64FB5F-84F4-484B-B4B7-202E806C64D1},{02597F87-C7C3-4CA5-B79D-11EEB49E7B27}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för periodens försäljningar/utrangeringar av immateriella tillgångar</Hint>
+    <Description>Bilagan används för att specificera årets försäljningar och utrangeringar av immateriella tillgångar. Uppgifter hämtas automatiskt från anläggningsregistret, när det används.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>1709</FormID>
+    <Category>Anläggningstillgångar</Category>
+    <Name>
+      <eubas:Name>1009</eubas:Name>
+      <bas96:Name>1709</bas96:Name>
+    </Name>
+    <Caption>Immateriella tillgångar, utgående redovisat värde</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1000-1089</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1700-1799</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{0D64FB5F-84F4-484B-B4B7-202E806C64D1},{02597F87-C7C3-4CA5-B79D-11EEB49E7B27}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för beräkning av utgående redovisat värde, immateriella tillgångar</Hint>
+    <Description>Bilagan består av två sidor. På sidan ett specificeras planenliga avskrivningar per konto. På sidan två sammanställs planenligt restvärde. Uppgifterna på sid 2 förs över till not i årsredovisningen. Uppgifter hämtas automatiskt från anläggningsregistret, när det används.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="false" Recomended="false">
+    <FormID>1790A</FormID>
+    <Category>Anläggningstillgångar</Category>
+    <Name>
+      <eubas:Name>100A</eubas:Name>
+      <bas96:Name>170A</bas96:Name>
+    </Name>
+    <Caption>Immateriella tillgångar, förteckning (förenklat årsbokslut)</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1000-1089</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1700-1799</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{0D64FB5F-84F4-484B-B4B7-202E806C64D1},{02597F87-C7C3-4CA5-B79D-11EEB49E7B27}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för förteckning över immateriella tillgångar</Hint>
+    <Description>Bilagan används för enskilda firmor. I en enskild firma räcker det att upprätta en förteckning med uppgift om anskaffningsvärde, anskaffningstidpunkt och uppskattad nyttjandeperiod.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>1800</FormID>
+    <Category>Anläggningstillgångar</Category>
+    <Name>
+      <eubas:Name>1200</eubas:Name>
+      <bas96:Name>1800</bas96:Name>
+    </Name>
+    <Caption>Maskiner och inventarier, skattemässig avskrivning</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1200-1279,1290-1299</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1800-1849,1860-1899</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{4C0417BF-6463-4603-98C2-E6C1266E2467},{E039599C-D0A6-43ED-ABA0-A947DA78E570},{9D82F1D2-2B4F-404E-BBC4-D4360996EE74}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för beräkning av avskrivning över plan och skattemässigt restvärde</Hint>
+    <Description>Bilagan används för att beräkna den skattemässiga avskrivningen på maskiner och inventarier.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>1801</FormID>
+    <Category>Anläggningstillgångar</Category>
+    <Name>
+      <eubas:Name>1201</eubas:Name>
+      <bas96:Name>1801</bas96:Name>
+    </Name>
+    <Caption>Maskiner och inventarier, periodens anskaffningar</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1200-1279,1290-1299</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1800-1849,1860-1899</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{4C0417BF-6463-4603-98C2-E6C1266E2467},{E039599C-D0A6-43ED-ABA0-A947DA78E570},{9D82F1D2-2B4F-404E-BBC4-D4360996EE74}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för periodens anskaffning av maskiner och inventarier</Hint>
+    <Description>Bilagan används för att specificera årets inköp av maskiner och inventarier. Uppgifter hämtas automatiskt från anläggningsregistret, när det används.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>1802</FormID>
+    <Category>Anläggningstillgångar</Category>
+    <Name>
+      <eubas:Name>1202</eubas:Name>
+      <bas96:Name>1802</bas96:Name>
+    </Name>
+    <Caption>Maskiner och inventarier, periodens försäljningar/utrangeringar</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1200-1279,1290-1299</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1800-1849,1860-1899</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{4C0417BF-6463-4603-98C2-E6C1266E2467},{E039599C-D0A6-43ED-ABA0-A947DA78E570},{9D82F1D2-2B4F-404E-BBC4-D4360996EE74}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för periodens försäljning av maskiner och inventarier</Hint>
+    <Description>Bilagan används för att specificera årets försäljningar och utrangeringar av maskiner och inventarier. Uppgifter hämtas automatiskt från anläggningsregistret, när det används.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>1809</FormID>
+    <Category>Anläggningstillgångar</Category>
+    <Name>
+      <eubas:Name>1209</eubas:Name>
+      <bas96:Name>1809</bas96:Name>
+    </Name>
+    <Caption>Maskiner och inventarier, utgående redovisat värde</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1200-1279,1290-1299</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1800-1849,1860-1899</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{4C0417BF-6463-4603-98C2-E6C1266E2467},{E039599C-D0A6-43ED-ABA0-A947DA78E570},{9D82F1D2-2B4F-404E-BBC4-D4360996EE74}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för beräkning av utgående redovisat värde, maskiner och inventarier</Hint>
+    <Description>Bilagan består av två sidor. På sidan ett sammanställer du planenliga avskrivningar per konto. På sidan två specificerar du planenligt restvärde. Uppgifterna på sid 2 förs över till not i årsredovisningen. Uppgifter hämtas automatiskt från anläggningsregistret, när det används. </Description>
+    <Screen />
+  </specification>
+  <specification Enabled="false" Recomended="false">
+    <FormID>180A</FormID>
+    <Category>Anläggningstillgångar</Category>
+    <Name>
+      <eubas:Name>120A</eubas:Name>
+      <bas96:Name>180A</bas96:Name>
+    </Name>
+    <Caption>Maskiner och inventarier, förteckning (förenklat årsbokslut)</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1200-1299</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1800-1899</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{4C0417BF-6463-4603-98C2-E6C1266E2467},{E039599C-D0A6-43ED-ABA0-A947DA78E570},{9D82F1D2-2B4F-404E-BBC4-D4360996EE74}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för förteckning över maskiner och inventarier</Hint>
+    <Description>Bilagan används för enskilda firmor. I en enskild firma räcker det att upprätta en förteckning med uppgift om anskaffningsvärde, anskaffningstidpunkt och uppskattad nyttjandeperiod.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>1910</FormID>
+    <Category>Anläggningstillgångar</Category>
+    <Name>
+      <eubas:Name>110A </eubas:Name>
+      <bas96:Name>1910</bas96:Name>
+    </Name>
+    <Caption>Rörelsebyggnad, redovisat/skattemässigt värde</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1100-1119</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1900-1939</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{4C0417BF-6463-4603-98C2-E6C1266E2467},{8258EC25-9D9B-41B9-A4F9-DA4C8CBA1F60},{5291742A-2A59-42AD-BDE4-759DABF9BBC7}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för beräkning av avskrivning på rörelsebyggnad</Hint>
+    <Description>Bilagan används för beräkning av både planenlig och skattemässig avskrivning på rörelsebyggnader. Uppgifter kan hämtas från det integrerade anläggningsregistret, när det används. </Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>191A</FormID>
+    <Category>Anläggningstillgångar</Category>
+    <Name>
+      <eubas:Name>111A </eubas:Name>
+      <bas96:Name>191A </bas96:Name>
+    </Name>
+    <Caption>Rörelsebyggnader</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1100-1119,1180-1189</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1900-1939</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{4C0417BF-6463-4603-98C2-E6C1266E2467},{8258EC25-9D9B-41B9-A4F9-DA4C8CBA1F60},{5291742A-2A59-42AD-BDE4-759DABF9BBC7}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för beräkning av avskrivning på rörelsebyggnad</Hint>
+    <Description>Bilagan används för beräkning av avskrivningar på rörelsebyggnader som måste delas upp på flera avskrivningsunderlag.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>191B</FormID>
+    <Category>Anläggningstillgångar</Category>
+    <Name>
+      <eubas:Name>111B </eubas:Name>
+      <bas96:Name>191B </bas96:Name>
+    </Name>
+    <Caption>Rörelsebyggnader</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1100-1119,1180-1189</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1900-1939</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{4C0417BF-6463-4603-98C2-E6C1266E2467},{8258EC25-9D9B-41B9-A4F9-DA4C8CBA1F60},{5291742A-2A59-42AD-BDE4-759DABF9BBC7}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för beräkning av avskrivning på rörelsebyggnad</Hint>
+    <Description>Bilagan används för beräkning av avskrivningar på rörelsebyggnader.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>191C</FormID>
+    <Category>Anläggningstillgångar</Category>
+    <Name>
+      <eubas:Name>111C </eubas:Name>
+      <bas96:Name>191C </bas96:Name>
+    </Name>
+    <Caption>Byggnader och mark, planenlig avskrivning</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1100-1119,1130-1189</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1900-1969,1980-1999</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{4C0417BF-6463-4603-98C2-E6C1266E2467},{8258EC25-9D9B-41B9-A4F9-DA4C8CBA1F60},{5291742A-2A59-42AD-BDE4-759DABF9BBC7}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för byggnader och mark, ackumulerade avskrivningar och planenligt restvärde</Hint>
+    <Description>Bilagan används för att specificera utgående planenligt restvärde för byggnader och mark. Den hämtar uppgifter från övriga 11xx-bilagor. Uppgifterna förs över till not i årsredovisningen.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>1930</FormID>
+    <Category>Anläggningstillgångar</Category>
+    <Name>
+      <eubas:Name>118A </eubas:Name>
+      <bas96:Name>1930</bas96:Name>
+    </Name>
+    <Caption>Täckdiken</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1150-1159</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1980-1989</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{4C0417BF-6463-4603-98C2-E6C1266E2467},{8258EC25-9D9B-41B9-A4F9-DA4C8CBA1F60},{5291742A-2A59-42AD-BDE4-759DABF9BBC7}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för beräkning av avskrivning täckdiken</Hint>
+    <Description>Bilagan används för specificering och beräkning av skattemässiga avskrivningar på täckdiken.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>1940</FormID>
+    <Category>Anläggningstillgångar</Category>
+    <Name>
+      <eubas:Name>113A </eubas:Name>
+      <bas96:Name>1940</bas96:Name>
+    </Name>
+    <Caption>Skogsvägar</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1130-1139,1150-1159</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1940-1949</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{4C0417BF-6463-4603-98C2-E6C1266E2467},{8258EC25-9D9B-41B9-A4F9-DA4C8CBA1F60},{5291742A-2A59-42AD-BDE4-759DABF9BBC7}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för beräkning av avskrivning skogsvägar</Hint>
+    <Description>Bilagan används för begärkning av avskrivningar på skogsvägar.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>194A</FormID>
+    <Category>Anläggningstillgångar</Category>
+    <Name>
+      <eubas:Name>1130</eubas:Name>
+      <bas96:Name>194A </bas96:Name>
+    </Name>
+    <Caption>Mark</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1130-1149</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1940-1949</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{4C0417BF-6463-4603-98C2-E6C1266E2467},{8258EC25-9D9B-41B9-A4F9-DA4C8CBA1F60},{5291742A-2A59-42AD-BDE4-759DABF9BBC7}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för specifikation av mark</Hint>
+    <Description>Bilagan används för att specificera anskaffningsvärdet och taxeringsvärdet på mark.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>1970</FormID>
+    <Category>Anläggningstillgångar</Category>
+    <Name>
+      <eubas:Name>1120</eubas:Name>
+      <bas96:Name>1970</bas96:Name>
+    </Name>
+    <Caption>Förbättringsutgifter på annans fastighet</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1120-1129</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1970-1979</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{4C0417BF-6463-4603-98C2-E6C1266E2467},{32CE1603-4395-4485-AA82-0E60027ABBF8}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för förbättringsutgifter på annans fastighet</Hint>
+    <Description>Bilagan används för beräkning av avskrivningar på förbättringsutgifter på annans fastighet.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>1980</FormID>
+    <Category>Anläggningstillgångar</Category>
+    <Name>
+      <eubas:Name>1150</eubas:Name>
+      <bas96:Name>1980</bas96:Name>
+    </Name>
+    <Caption>Markanläggningar</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1150-1159</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1980-1989</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{4C0417BF-6463-4603-98C2-E6C1266E2467},{8258EC25-9D9B-41B9-A4F9-DA4C8CBA1F60},{5291742A-2A59-42AD-BDE4-759DABF9BBC7}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för beräkning av avskrivning övriga markanläggningar</Hint>
+    <Description>Bilagan används för specifikation och beräkning av avskrivningar på övriga markanläggningar.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>211A</FormID>
+    <Category>Kortfristiga skulder</Category>
+    <Name>
+      <eubas:Name>244A </eubas:Name>
+      <bas96:Name>211A </bas96:Name>
+    </Name>
+    <Caption>Leverantörsskulder (moms specificerad)</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2440-2449</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2100-2119</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{1B30F775-F89A-45BA-93CD-5BB96A55E633}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för specifikation av leverantörsskulder, moms specificeras</Hint>
+    <Description>Bilagan används för att specificera leverantörsskulder med momsen specificierad. </Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>211B</FormID>
+    <Category>Kortfristiga skulder</Category>
+    <Name>
+      <eubas:Name>244B </eubas:Name>
+      <bas96:Name>211B </bas96:Name>
+    </Name>
+    <Caption>Leverantörsskulder (moms ospecificerad)</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2440-2449</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2100-2119</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{1B30F775-F89A-45BA-93CD-5BB96A55E633}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för specifikation av leverantörsskulder, moms specificeras ej</Hint>
+    <Description>Bilagan används för att specificera leverantörsskulder inklusive moms. </Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>211C</FormID>
+    <Category>Kortfristiga skulder</Category>
+    <Name>
+      <eubas:Name>244C </eubas:Name>
+      <bas96:Name>211C </bas96:Name>
+    </Name>
+    <Caption>Leverantörsskulder (omräkning av utländsk valuta)</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2440-2449</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2100-2119</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{1B30F775-F89A-45BA-93CD-5BB96A55E633}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Leverantörsskulder (omräkning av utländsk valuta)</Hint>
+    <Description>Bilagan används för att sammanställa leverantörsskulder i utländsk valuta.  Du får även en sammanställning över vad som är koncerninternt.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>2160</FormID>
+    <Category>Kortfristiga skulder</Category>
+    <Name>
+      <eubas:Name>2460</eubas:Name>
+      <bas96:Name>2160</bas96:Name>
+    </Name>
+    <Caption>Leverantörsskulder till koncernföretag</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2460-2479</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2160-2169</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{1B30F775-F89A-45BA-93CD-5BB96A55E633}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för specifikation av leverantörsskulder till koncernföretag</Hint>
+    <Description>Bilagan används för kortfristiga skulder till koncernföretag.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>2200</FormID>
+    <Category>Kortfristiga skulder</Category>
+    <Name>
+      <eubas:Name>2500</eubas:Name>
+      <bas96:Name>2200</bas96:Name>
+    </Name>
+    <Caption>Sammanställning slutlig skatt</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2510-2519</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2200-2299</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{D73C89AC-1396-42E6-8050-9D3B8901D683}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilagan för sammanställning av slutlig skatt</Hint>
+    <Description>Bilagan används för sammanställning av den slutliga skatten.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>2210</FormID>
+    <Category>Kortfristiga skulder</Category>
+    <Name>
+      <eubas:Name>2510</eubas:Name>
+      <bas96:Name>2210</bas96:Name>
+    </Name>
+    <Caption>Skatteskuld/skattefordran</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2500-2512,2517-2518,1640</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2200-2212,2218,2250,1450</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{D73C89AC-1396-42E6-8050-9D3B8901D683}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för beräkning av skatteskuld/skattefordran</Hint>
+    <Description>Bilagan används för att beräkna bolagets skatteskuld eller skattefordran.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>2214</FormID>
+    <Category>Kortfristiga skulder</Category>
+    <Name>
+      <eubas:Name>2514</eubas:Name>
+      <bas96:Name>2214</bas96:Name>
+    </Name>
+    <Caption>Beräknad särskild löneskatt</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2514, 2942-2943</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2214,2333-2334</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{D73C89AC-1396-42E6-8050-9D3B8901D683}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för beräkning av särskild löne- och avkastningsskatt</Hint>
+    <Description>Bilagan används för att beräkna särskild löneskatt. Bilagan består av fyra sidor och gäller för både kalenderår och brutna räkenskapsår. </Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>2215</FormID>
+    <Category>Kortfristiga skulder</Category>
+    <Name>
+      <eubas:Name>2515</eubas:Name>
+      <bas96:Name>2215</bas96:Name>
+    </Name>
+    <Caption>Beräknad avkastningsskatt</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2515, 2944</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>22152335</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{D73C89AC-1396-42E6-8050-9D3B8901D683}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för beräkning av avkastningsskatt</Hint>
+    <Description>Bilagan används för att räkna ut utgående skuld för avkastningsskatt på pensionskostnader.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="false" Recomended="false">
+    <FormID>2300</FormID>
+    <Category>Kortfristiga skulder</Category>
+    <Name>
+      <eubas:Name>2900</eubas:Name>
+      <bas96:Name>2300</bas96:Name>
+    </Name>
+    <Caption>Upplupna kostnader och förutbetalda intäkter</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2900-2999</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2300-2399</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{0CFE1EA4-CD98-4D79-A8FE-F4952FD4F6EA}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för upplupna kostnader och förutbetalda intäkter</Hint>
+    <Description>Bilagan används för sammanställning av upplupna kostnader och förutbetalda intäkter.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>2310</FormID>
+    <Category>Kortfristiga skulder</Category>
+    <Name>
+      <eubas:Name>2910</eubas:Name>
+      <bas96:Name>2310</bas96:Name>
+    </Name>
+    <Caption>Upplupna löner</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2900-2919</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2300-2319</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{0CFE1EA4-CD98-4D79-A8FE-F4952FD4F6EA}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för beräkning av upplupna löner</Hint>
+    <Description>Bilagan används för att räkna ut och specificera upplupna löner. Kan kopplas som underbilaga till bilaga Upplupna kostnader och förutbetalda intäkter. Uppgifter förs över till not i årsredovisningen.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>2320A</FormID>
+    <Category>Kortfristiga skulder</Category>
+    <Name>
+      <eubas:Name>2920A </eubas:Name>
+      <bas96:Name>2320A </bas96:Name>
+    </Name>
+    <Caption>Upplupna semesterlöner</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2920-2929</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2320-2329</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{0CFE1EA4-CD98-4D79-A8FE-F4952FD4F6EA}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Upplupna semesterlöner, sammalöne-/procentregel</Hint>
+    <Description>Bilagan används för att beräkna upplupna semesterlöner. Uppgifter förs över till not i årsredovisningen (ej obl för K2).</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>2331</FormID>
+    <Category>Kortfristiga skulder</Category>
+    <Name>
+      <eubas:Name>2941</eubas:Name>
+      <bas96:Name>2331</bas96:Name>
+    </Name>
+    <Caption>Beräknade upplupna sociala avgifter</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2940-2942</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2330-2331</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{0CFE1EA4-CD98-4D79-A8FE-F4952FD4F6EA}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för beräkning av beräknade upplupna sociala avgifter</Hint>
+    <Description>Bilagan används för att beräkna upplupna sociala avgifter och upplupen särskild löneskatt på upplupna löner och semesterlöner. Uppgifter förs över till not i årsredovisningen (ej obl för K2).</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>2332</FormID>
+    <Category>Kortfristiga skulder</Category>
+    <Name>
+      <eubas:Name>2731</eubas:Name>
+      <bas96:Name>2332</bas96:Name>
+    </Name>
+    <Caption>Avräkning sociala avgifter</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2730-2739</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>23302332</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{0CFE1EA4-CD98-4D79-A8FE-F4952FD4F6EA}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för avräkning sociala avgifter</Hint>
+    <Description>Bilagan används för att beräkna skuld för sociala avgifter som förfaller till betalning  månaden efter bokslutsmånaden.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>2340</FormID>
+    <Category>Kortfristiga skulder</Category>
+    <Name>
+      <eubas:Name>2960</eubas:Name>
+      <bas96:Name>2340</bas96:Name>
+    </Name>
+    <Caption>Upplupna räntekostnader</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2960-2969</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2340-2349</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{0CFE1EA4-CD98-4D79-A8FE-F4952FD4F6EA}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för beräkning av upplupna räntekostnader</Hint>
+    <Description>Bilagan används för att beräkna upplupna räntor. Uppgifter förs över till noten.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>2370A</FormID>
+    <Category>Kortfristiga skulder</Category>
+    <Name>
+      <eubas:Name>2950A </eubas:Name>
+      <bas96:Name>2370A </bas96:Name>
+    </Name>
+    <Caption>Upplupna FORA-avgifter</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2950-2959</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2370-2379</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{0CFE1EA4-CD98-4D79-A8FE-F4952FD4F6EA}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för beräkning av upplupna FORA-avgifter (med dekl. post)</Hint>
+    <Description>Bilagan används för att beräkna skuld för FORA-avgifter. Uppgifter förs över till not i årshandling (ej obl för K2).</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>239A</FormID>
+    <Category>Kortfristiga skulder</Category>
+    <Name>
+      <eubas:Name>299A </eubas:Name>
+      <bas96:Name>239A </bas96:Name>
+    </Name>
+    <Caption>Övriga upplupna kostnader</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2930-2939,2960-2969,2980-2999</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2390-2399</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{0CFE1EA4-CD98-4D79-A8FE-F4952FD4F6EA}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för övriga upplupna kostnader</Hint>
+    <Description>Bilagan används för att specificera och beräkna övriga kostnader som hänför sig till räkenskapsåret. Uppgifter förs över till not i årsredovisningen (ej obl för K2).</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>239B</FormID>
+    <Category>Kortfristiga skulder</Category>
+    <Name>
+      <eubas:Name>299B </eubas:Name>
+      <bas96:Name>239B </bas96:Name>
+    </Name>
+    <Caption>Förutbetalda intäkter</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2970-2979,2990-2999</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2350-2359,2390-2399</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{0CFE1EA4-CD98-4D79-A8FE-F4952FD4F6EA}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för förutbetalda intäkter</Hint>
+    <Description>Bilagan används för att specificera och beräkna förutbetalda intäkter. Uppgifter förs över till not i årsredovisningen (ej obl för K2).</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>248A</FormID>
+    <Category>Kortfristiga skulder</Category>
+    <Name>
+      <eubas:Name>265A </eubas:Name>
+      <bas96:Name>248A </bas96:Name>
+    </Name>
+    <Caption>Moms (specificerad)</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1650,2600-2659</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2480-2489</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{E54832C6-DC11-408C-9ADD-1E3D54761C13},{42148657-E28B-41A2-ABCB-4D72C5FBD06B}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för beräkning av mervärdesskatt</Hint>
+    <Description>Bilagan används för att specificera momsskulden. </Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>2480</FormID>
+    <Category>Kortfristiga skulder</Category>
+    <Name>
+      <eubas:Name>265B </eubas:Name>
+      <bas96:Name>2480</bas96:Name>
+    </Name>
+    <Caption>Moms (avstämning mot huvudbok, enkel)</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1650,2600-2659</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2480-2489</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{E54832C6-DC11-408C-9ADD-1E3D54761C13},{42148657-E28B-41A2-ABCB-4D72C5FBD06B}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för beräkning av mervärdesskattefordran/skuld</Hint>
+    <Description>Bilagan används för att stämma av redovisad mervärdesskatt till skatteverket för en momsperiod mot vad som är bokfört enligt huvudboken. </Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>248B</FormID>
+    <Category>Kortfristiga skulder</Category>
+    <Name>
+      <eubas:Name>265C </eubas:Name>
+      <bas96:Name>248B </bas96:Name>
+    </Name>
+    <Caption>Moms (avstämning mot huvudbok, enligt skattedeklaration)</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1650,2600-2659</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2480-2489</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{E54832C6-DC11-408C-9ADD-1E3D54761C13},{42148657-E28B-41A2-ABCB-4D72C5FBD06B}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för beräkning av mervärdesskattefordran/skuld</Hint>
+    <Description>Bilagan används för att stämma av redovisad mervärdesskatt till skatteverket för en momsperiod mot vad som är bokfört enligt huvudboken. Avstämning görs även om vad momsen borde vara utifrån omsättning och vad omsättningen borde vara utifrån momsen.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>2510</FormID>
+    <Category>Kortfristiga skulder</Category>
+    <Name>
+      <eubas:Name>2710</eubas:Name>
+      <bas96:Name>2510</bas96:Name>
+    </Name>
+    <Caption>Avstämning personalens källskatter</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2700-2719</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2510-2519</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{E54832C6-DC11-408C-9ADD-1E3D54761C13},{42148657-E28B-41A2-ABCB-4D72C5FBD06B}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för avstämning av personalens skatter</Hint>
+    <Description>Bilaga använder du för att göra en avstämning av personalens källskatt. </Description>
+    <Screen />
+  </specification>
+  <specification Enabled="false" Recomended="false">
+    <FormID>2600</FormID>
+    <Category>Kortfristiga skulder</Category>
+    <Name>
+      <eubas:Name>2800</eubas:Name>
+      <bas96:Name>2600</bas96:Name>
+    </Name>
+    <Caption>Div kortfristiga skulder</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2800-2899</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2600-2699</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{E54832C6-DC11-408C-9ADD-1E3D54761C13},{42148657-E28B-41A2-ABCB-4D72C5FBD06B}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för diverse kortfristiga skulder</Hint>
+    <Description>Bilagan kan användas antingen för att specificera ett enskilt konto eller som en sammanställning över samtliga kortfristiga skulder.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="false" Recomended="false">
+    <FormID>2690</FormID>
+    <Category>Kortfristiga skulder</Category>
+    <Name>
+      <eubas:Name>2890</eubas:Name>
+      <bas96:Name>2690</bas96:Name>
+    </Name>
+    <Caption>Övriga kortfristiga skulder</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2400-2499,2890-2899</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2690-2699</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{E54832C6-DC11-408C-9ADD-1E3D54761C13},{42148657-E28B-41A2-ABCB-4D72C5FBD06B}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för specifikation av övriga kortfristiga skulder</Hint>
+    <Description>Bilagan används för att specificera övriga kortfristiga skulder. </Description>
+    <Screen />
+  </specification>
+  <specification Enabled="false" Recomended="false">
+    <FormID>2700</FormID>
+    <Category>Långfristiga skulder</Category>
+    <Name>
+      <eubas:Name>2300</eubas:Name>
+      <bas96:Name>2700</bas96:Name>
+    </Name>
+    <Caption>Långfristiga skulder</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2300-2399</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2700-2799</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{96308074-22E7-4548-9DE8-735E2EEF2407},{9345B02F-456C-4078-BAB6-ABB40E3B7B25}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för långfristiga skulder</Hint>
+    <Description>Bilagan används för att specificera långfristiga skulder. Uppgifter förs över till not i årshandlingen.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="false" Recomended="false">
+    <FormID>2710</FormID>
+    <Category>Avsättningar</Category>
+    <Name>
+      <eubas:Name>2200</eubas:Name>
+      <bas96:Name>2710</bas96:Name>
+    </Name>
+    <Caption>Avsättningar</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2200-2299</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2700-2719</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{F555A30F-478A-44F8-A530-7FB732CE9BDD}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för avsättningar</Hint>
+    <Description>Bilagan används för att specificera avsättningar. </Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>2720</FormID>
+    <Category>Långfristiga skulder</Category>
+    <Name>
+      <eubas:Name>2330</eubas:Name>
+      <bas96:Name>2720</bas96:Name>
+    </Name>
+    <Caption>Checkräkningskredit</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2330-2339,2480-2489</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2720-2729</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{E76DC9F8-675F-4248-B5B6-A6A166D3AA72}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för checkräkningskredit</Hint>
+    <Description>Bilaga används för att specificera checkräkningskrediter.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>2740</FormID>
+    <Category>Långfristiga skulder</Category>
+    <Name>
+      <eubas:Name>2350</eubas:Name>
+      <bas96:Name>2740</bas96:Name>
+    </Name>
+    <Caption>Specifikation skulder</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2300-2359,2370-2379,2390-2399</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2730-2759</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{884A6E58-E820-4DE1-800C-2E16FDC14A71},{86E88A29-E167-4312-B7E9-EF440F3ECE06}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för specifikation av skulder</Hint>
+    <Description>Bilaga används för att specificera kortfristig del av långfristig skuld som förfaller inom ett år, långfristiga skulder som förfaller inom 2-5 år samt långfristiga skulder som förfaller senare än om 5 år. Uppgifter förs över till not i årsredovisningen.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>2760</FormID>
+    <Category>Långfristiga skulder</Category>
+    <Name>
+      <eubas:Name>2360</eubas:Name>
+      <bas96:Name>2760</bas96:Name>
+    </Name>
+    <Caption>Långfristiga skulder till koncernföretag</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2360-2379</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2760-2769</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{E6F55FCB-4B90-406E-B63A-172C13BAC04C}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för specifikation av långfristiga skulder till koncernföretag</Hint>
+    <Description>Bilagan används för långfristiga skulder till koncernföretag.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>2797B</FormID>
+    <Category>Avsättningar</Category>
+    <Name>
+      <eubas:Name>2240</eubas:Name>
+      <bas96:Name>2797B</bas96:Name>
+    </Name>
+    <Caption>Förteckning uppskjuten skatt</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2240-2249</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2797</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{D58CC7B1-9E66-4862-BB19-DA7076FB18E9}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för förteckning av uppskjuten skatt</Hint>
+    <Description>Bilagan används till att beräkna temporära skillnader mellan det redovisade värdet och det skattemässiga värdet på balansposter.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="false" Recomended="false">
+    <FormID>2800</FormID>
+    <Category>Obeskattade reserver</Category>
+    <Name>
+      <eubas:Name>2100</eubas:Name>
+      <bas96:Name>2800</bas96:Name>
+    </Name>
+    <Caption>Obeskattade reserver</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2100-2199</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2800-2899</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{F24609CF-FC7B-451F-85A6-3A137F2F4712},{68E6163E-B72F-495E-B2A4-E6BF4289506F}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för obeskattade reserver</Hint>
+    <Description>Bilagan används för att specificera dina obeskattade reserver. </Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>285A</FormID>
+    <Category>Obeskattade reserver</Category>
+    <Name>
+      <eubas:Name>212A </eubas:Name>
+      <bas96:Name>285A </bas96:Name>
+    </Name>
+    <Caption>Periodiseringsfonder AB</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2100-2139</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2850-2899</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{DD49DB08-049C-43F9-A2A8-DEFFEE4887D7}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för beräkning av periodiseringsfonder</Hint>
+    <Description>Bilagan används för att beräkna årets avsättning och återföring till periodiseringsfond. Längst ned på bilagan finns även en sammanställning av samtliga dina periodiseringsfonder.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>2900</FormID>
+    <Category>Eget kapital</Category>
+    <Name>
+      <eubas:Name>200A </eubas:Name>
+      <bas96:Name>2900</bas96:Name>
+    </Name>
+    <Caption>Kapital i enskild firma eller handelsbolag</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2000-2049</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2910-2959</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{9059CE7E-D600-4A21-9093-B39B5DE0C37D},{6021BFCB-427C-4614-9689-A5D8147F7CB1},{A352FFB1-7089-461D-9409-68B096FCE1E8},{5BF49470-3974-4959-AA6D-A4C3E144925A},{E441EB48-E5F6-4F35-9E98-FBBBF40C3F2E}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för kapital i enskild firma eller handelsbolag</Hint>
+    <Description>Bilagan används för att specificera egna instättningar och uttag, egenavgifter mm i en enskild firma eller handelsbolag. Uppgifterna förs över till noten.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>2980</FormID>
+    <Category>Eget kapital</Category>
+    <Name>
+      <eubas:Name>200C </eubas:Name>
+      <bas96:Name>2980</bas96:Name>
+    </Name>
+    <Caption>Eget kapital i ekonomisk förening</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2083-2092,2095-2096,2098-2099</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2980-2989</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{142E253B-662D-4EAE-9DB4-DFDD949CFD1C},{8DF9C689-3D2F-428D-9E80-66C49DC1A01E},{D348102F-E6F6-4F1D-931E-CE6BD7942D28},{B99373D7-544D-456B-8D66-67ABAC1B6A39},{58217222-FE09-4C25-AFD5-22F78CB566C6},{3A37E640-A29A-4ABC-8388-F418D624829A},{C3F36197-8293-4CC4-ADA0-3E3EAFC5265D},{29768351-9CBE-4414-B7E2-F5979A92184E},{EE71CA4F-41ED-473D-AD6F-780DADEB8A92}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för eget kapital i ekonomisk förening</Hint>
+    <Description>Bilagan används för att specificera förändringen av det egna kapitalet i en ekonomisk förening. Uppgifterna förs över till not i årsredovisningen.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>2980A</FormID>
+    <Category>Eget kapital</Category>
+    <Name>
+      <eubas:Name>200G </eubas:Name>
+      <bas96:Name>2980A </bas96:Name>
+    </Name>
+    <Caption>Eget kapital i ekonomisk förening K3, justering föregående år</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2083-2092,2095-2096,2098-2099</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2980-2989</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{142E253B-662D-4EAE-9DB4-DFDD949CFD1C},{8DF9C689-3D2F-428D-9E80-66C49DC1A01E},{D348102F-E6F6-4F1D-931E-CE6BD7942D28},{B99373D7-544D-456B-8D66-67ABAC1B6A39},{58217222-FE09-4C25-AFD5-22F78CB566C6},{3A37E640-A29A-4ABC-8388-F418D624829A},{C3F36197-8293-4CC4-ADA0-3E3EAFC5265D},{29768351-9CBE-4414-B7E2-F5979A92184E},{EE71CA4F-41ED-473D-AD6F-780DADEB8A92}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Eget kapital i ekonomisk förening K3, justering föregående år</Hint>
+    <Description>Bilagan används första året när ett företag ska gå över till att redovisa enligt K3-reglerna (BFNAR 2012:1). Uppgifter förs över till not i årsredovisningen.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>2981</FormID>
+    <Category>Eget kapital</Category>
+    <Name>
+      <eubas:Name>200F </eubas:Name>
+      <bas96:Name>2981</bas96:Name>
+    </Name>
+    <Caption>Eget kapital i ekonomisk förening K2, justering IB</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2083-2092,2095,2098-2099</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2980-2989</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{142E253B-662D-4EAE-9DB4-DFDD949CFD1C},{8DF9C689-3D2F-428D-9E80-66C49DC1A01E},{D348102F-E6F6-4F1D-931E-CE6BD7942D28},{B99373D7-544D-456B-8D66-67ABAC1B6A39},{58217222-FE09-4C25-AFD5-22F78CB566C6},{3A37E640-A29A-4ABC-8388-F418D624829A},{C3F36197-8293-4CC4-ADA0-3E3EAFC5265D},{29768351-9CBE-4414-B7E2-F5979A92184E},{EE71CA4F-41ED-473D-AD6F-780DADEB8A92}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för eget kapital i ekonomisk förening K2, justering IB</Hint>
+    <Description>Bilagan används vid bokslut när ett företag ska gå över till att redovisa enligt K2-reglerna. Uppgifter förs över till not i årsredovisningen.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>2990</FormID>
+    <Category>Eget kapital</Category>
+    <Name>
+      <eubas:Name>200B </eubas:Name>
+      <bas96:Name>2990</bas96:Name>
+    </Name>
+    <Caption>Eget kapital i aktiebolag</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2080-2082,2085-2086,2090-2099</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2990-2999</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{DB217AFC-C90B-4FEB-8414-1CC7019A3F5D},{D348102F-E6F6-4F1D-931E-CE6BD7942D28},{B99373D7-544D-456B-8D66-67ABAC1B6A39},{58217222-FE09-4C25-AFD5-22F78CB566C6},{77E19712-0912-45A7-ACA6-9521824C6C68},{C3F36197-8293-4CC4-ADA0-3E3EAFC5265D},{29768351-9CBE-4414-B7E2-F5979A92184E},{EE71CA4F-41ED-473D-AD6F-780DADEB8A92}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för eget kapital i aktiebolag</Hint>
+    <Description>Bilagan används för att specificera förändringen av det egna kapitalet. Uppgifter förs över till not i årsredovisningen . </Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>2990A</FormID>
+    <Category>Eget kapital</Category>
+    <Name>
+      <eubas:Name>200E </eubas:Name>
+      <bas96:Name>2990A </bas96:Name>
+    </Name>
+    <Caption>Eget kapital i aktiebolag K3, justering föregående år</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2080-2082,2085-2086,2090-2099</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2980-2999</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{DB217AFC-C90B-4FEB-8414-1CC7019A3F5D},{D348102F-E6F6-4F1D-931E-CE6BD7942D28},{B99373D7-544D-456B-8D66-67ABAC1B6A39},{58217222-FE09-4C25-AFD5-22F78CB566C6},{77E19712-0912-45A7-ACA6-9521824C6C68},{C3F36197-8293-4CC4-ADA0-3E3EAFC5265D},{29768351-9CBE-4414-B7E2-F5979A92184E},{EE71CA4F-41ED-473D-AD6F-780DADEB8A92}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Eget kapital i aktiebolag K3, justering föregående år</Hint>
+    <Description>Bilagan används första året när ett företag ska gå över till att redovisa enligt K3-reglerna (BFNAR 2012:1). Uppgifter förs över till not i årsredovisningen.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>2991</FormID>
+    <Category>Eget kapital</Category>
+    <Name>
+      <eubas:Name>200D </eubas:Name>
+      <bas96:Name>2991</bas96:Name>
+    </Name>
+    <Caption>Eget kapital i aktiebolag K2, justering IB</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2080-2082,2085-2086,2090-2095,2097-2099</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2980-2999</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{DB217AFC-C90B-4FEB-8414-1CC7019A3F5D},{D348102F-E6F6-4F1D-931E-CE6BD7942D28},{B99373D7-544D-456B-8D66-67ABAC1B6A39},{77E19712-0912-45A7-ACA6-9521824C6C68},{29768351-9CBE-4414-B7E2-F5979A92184E},{EE71CA4F-41ED-473D-AD6F-780DADEB8A92}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för eget kapital i aktiebolag K2, justering IB</Hint>
+    <Description>Bilagan används vid bokslut när ett företag ska gå över till att redovisa enligt K2-reglerna. Uppgifter förs över till not i årsredovisningen.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>2971</FormID>
+    <Category>Eget kapital</Category>
+    <Name>
+      <eubas:Name>206A</eubas:Name>
+      <bas96:Name>2971</bas96:Name>
+    </Name>
+    <Caption>Eget kapital i stiftelse</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2060-2079</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2970-2979</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger>{ED26B87E-043E-4484-BB4C-61D8945F12FE},{00C21D64-D53A-4161-9596-6CA3C1A80D1E},{8C595B3E-B3FB-4CDE-AADB-E093CB042163},{EE71CA4F-41ED-473D-AD6F-780DADEB8A92},{A4C54B6C-9878-45AD-8490-02822F297FE8},{457F22C3-C8D5-4DE1-9A1D-2D788D3CBEEE}</SpecificationContextTrigger>
+    </Trigger>
+    <Hint>Bilaga för eget kapital i stiftelse</Hint>
+    <Description>Bilagan används för att specificera förändringen av det egna kapitalet. Uppgifter förs över till not i årsredovisningen . </Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>5610</FormID>
+    <Category>Övriga bilagor</Category>
+    <Name>
+      <eubas:Name>7510</eubas:Name>
+      <bas96:Name>5610</bas96:Name>
+    </Name>
+    <Caption>Avstämning sociala avgifter</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>7500-7599</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>5610-5699</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger />
+    </Trigger>
+    <Hint>Bilaga för avstäming av sociala avgifter</Hint>
+    <Description>Bilagan används för att stämma av av sociala avgifter. Avstämning kan göras för upp till 18 perioder.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>9900</FormID>
+    <Category>Övriga bilagor</Category>
+    <Name>
+      <eubas:Name>9900</eubas:Name>
+      <bas96:Name>9900</bas96:Name>
+    </Name>
+    <Caption>Egen bilaga, spec ett konto UB</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger />
+      <bas96:SpecificationContextTrigger />
+      <SpecificationContextTrigger />
+    </Trigger>
+    <Hint>Bilaga som kan utnyttjas som egen specifikation</Hint>
+    <Description>Bilagan innehåller kolumner för Namn/beskrivning, Bilaga, Konto och Belopp.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>9901</FormID>
+    <Category>Övriga bilagor</Category>
+    <Name>
+      <eubas:Name>9901</eubas:Name>
+      <bas96:Name>9901</bas96:Name>
+    </Name>
+    <Caption>Egen bilaga, spec ett konto UB/IB</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger />
+      <bas96:SpecificationContextTrigger />
+      <SpecificationContextTrigger />
+    </Trigger>
+    <Hint>Bilaga som kan utnyttjas som egen specifikation</Hint>
+    <Description>Bilagan innehåller kolumner för Namn/beskrivning, Bilaga, Konto och två kolumner för Belopp.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>9910</FormID>
+    <Category>Övriga bilagor</Category>
+    <Name>
+      <eubas:Name>9910</eubas:Name>
+      <bas96:Name>9910</bas96:Name>
+    </Name>
+    <Caption>Egen bilaga, spec flera konton UB</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger />
+      <bas96:SpecificationContextTrigger />
+      <SpecificationContextTrigger />
+    </Trigger>
+    <Hint>Bilaga som kan utnyttjas som egen specifikation</Hint>
+    <Description>Bilagan innehåller kolumner för Namn/beskrivning, Bilaga, Konto och Belopp. På denna bilaga kan du specificera flera konton.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>9911</FormID>
+    <Category>Övriga bilagor</Category>
+    <Name>
+      <eubas:Name>SPEC</eubas:Name>
+      <bas96:Name>SPEC</bas96:Name>
+    </Name>
+    <Caption>Specifikation av konto</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <SpecificationGeneralTrigger />
+    </Trigger>
+    <Hint>Bilaga som kan utnyttjas som egen specifikation</Hint>
+    <Description>Bilagan innehåller kolumner för Namn/beskrivning, Bilaga, Konto och två kolumner för Belopp. På denna bilaga kan du specificera flera konton.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>BAP</FormID>
+    <Category>Övriga bilagor</Category>
+    <Name>
+      <eubas:Name>BAP  </eubas:Name>
+      <bas96:Name>BAP  </bas96:Name>
+    </Name>
+    <Caption>Ställda säkerheter och ansvarsförbindelser</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger />
+      <bas96:SpecificationContextTrigger />
+      <SpecificationContextTrigger />
+    </Trigger>
+    <Hint>Bilaga för specifikation av ställda säkerheter och ansvarsförbindelser</Hint>
+    <Description>Bilagan används för att specificera ställda säkerheter och ansvarsförbindelser. Uppgifter förs över Inom linjen i årsredovisningen.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>BAPS</FormID>
+    <Category>Övriga bilagor</Category>
+    <Name>
+      <eubas:Name>BAPS </eubas:Name>
+      <bas96:Name>BAPS </bas96:Name>
+    </Name>
+    <Caption>Ställda säkerheter, specifikation</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger />
+      <bas96:SpecificationContextTrigger />
+      <SpecificationContextTrigger />
+    </Trigger>
+    <Hint>Bilaga för specifikation av olika företags- och fastighetsinteckningar</Hint>
+    <Description>Bilagan används för att specificera ställda säkerheter, om det finns flera Företags- respektive Fastighetsinteckingar. Uppgifter förs över till den överliggande bilagan för Ställda säkerheter och ansvarsförbindelser.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>BAR</FormID>
+    <Category>Övriga bilagor</Category>
+    <Name>
+      <eubas:Name>BAR  </eubas:Name>
+      <bas96:Name>BAR  </bas96:Name>
+    </Name>
+    <Caption>Arbetsblad bokslut</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger />
+      <bas96:SpecificationContextTrigger />
+      <SpecificationContextTrigger />
+    </Trigger>
+    <Hint>Arbetsblad bokslut, jämförelse mellan de olika åren</Hint>
+    <Description>Bilagan används för att göra en specifikation av varje post i årshandlingen.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>BASK</FormID>
+    <Category>Övriga bilagor</Category>
+    <Name>
+      <eubas:Name>BASK </eubas:Name>
+      <bas96:Name>BASK </bas96:Name>
+    </Name>
+    <Caption>Avstämning skattekonto</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger />
+      <bas96:SpecificationContextTrigger />
+      <SpecificationContextTrigger />
+    </Trigger>
+    <Hint>Bilaga för avstämning av skattekonto</Hint>
+    <Description>Bilagan används för att få en specifikation över hur mycket som ska betalas in alternativt betalas ut vid nästkommande avräkning på skattekontot.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>BAV</FormID>
+    <Category>Övriga bilagor</Category>
+    <Name>
+      <eubas:Name>BAV  </eubas:Name>
+      <bas96:Name>BAV  </bas96:Name>
+    </Name>
+    <Caption>Avstämningsbilaga</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger />
+      <bas96:SpecificationContextTrigger />
+      <SpecificationContextTrigger />
+    </Trigger>
+    <Hint>Bilaga för avstämning av balanskonton</Hint>
+    <Description>Bilagan används för att upprätta och dokumentera gjorda avstämningar av huvudbokskonto mot kontoutdrag.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>BFS15</FormID>
+    <Category>Kortfristiga skulder</Category>
+    <Name>
+      <eubas:Name>2513I </eubas:Name>
+      <bas96:Name>2213I </bas96:Name>
+    </Name>
+    <Caption>Beräknad fastighetsskatt/-avgift dekl. 2015 (inkomstår 2014)</Caption>
+    <TaxYear>2015</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2513</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2213</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger />
+    </Trigger>
+    <Hint>Beräknad fastighetsskatt och fastighetsavgift 2015</Hint>
+    <Description>På denna bilaga kan du specificera olika fastigheter och beräkna underlaget för fastighetsskatt för samtliga fastigheter för inkomståret 2014.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>BFS16</FormID>
+    <Category>Kortfristiga skulder</Category>
+    <Name>
+      <eubas:Name>2513IJ</eubas:Name>
+      <bas96:Name>2213J </bas96:Name>
+    </Name>
+    <Caption>Beräknad fastighetsskatt/-avgift dekl. 2016 (inkomstår 2015)</Caption>
+    <TaxYear>2016</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2513</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2213</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger />
+    </Trigger>
+    <Hint>Beräknad fastighetsskatt och fastighetsavgift 2016</Hint>
+    <Description>På denna bilaga kan du specificera olika fastigheter och beräkna underlaget för fastighetsskatt för samtliga fastigheter för inkomståret 2015.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>BFS17</FormID>
+    <Category>Kortfristiga skulder</Category>
+    <Name>
+      <eubas:Name>2513K</eubas:Name>
+      <bas96:Name>2213K</bas96:Name>
+    </Name>
+    <Caption>Beräknad fastighetsskatt/-avgift dekl. 2017 (inkomstår 2016)</Caption>
+    <TaxYear>2017</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2513</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2213</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger />
+    </Trigger>
+    <Hint>Beräknad fastighetsskatt och fastighetsavgift 2017</Hint>
+    <Description>På denna bilaga kan du specificera olika fastigheter och beräkna underlaget för fastighetsskatt för samtliga fastigheter för inkomståret 2016.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>BNOT</FormID>
+    <Category>Övriga bilagor</Category>
+    <Name>
+      <eubas:Name>BNOT </eubas:Name>
+      <bas96:Name>BNOT </bas96:Name>
+    </Name>
+    <Caption>Noteringsbilaga</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger />
+      <bas96:SpecificationContextTrigger />
+      <SpecificationContextTrigger />
+    </Trigger>
+    <Hint>Noteringsbilaga</Hint>
+    <Description>Bilagan används för att göra fristående anteckningar till bokslutsarbetet.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>BPJ</FormID>
+    <Category>Övriga bilagor</Category>
+    <Name>
+      <eubas:Name>BPJ  </eubas:Name>
+      <bas96:Name>BPJ  </bas96:Name>
+    </Name>
+    <Caption>Privata kostnader och uttag i jordbruk</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2010-2019</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger />
+      <SpecificationContextTrigger />
+    </Trigger>
+    <Hint>Bilaga för specifikation av privata kostnader och uttag i jordbruk</Hint>
+    <Description>Bilagan, som består av två sidor, används för att beräkna privata kostnader och uttag i jordbruk och ger underlag till deklarationen för lantbrukare. </Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>BPR</FormID>
+    <Category>Övriga bilagor</Category>
+    <Name>
+      <eubas:Name>BPR  </eubas:Name>
+      <bas96:Name>BPR  </bas96:Name>
+    </Name>
+    <Caption>Privata kostnader och uttag i rörelse</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2010-2019</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger />
+      <SpecificationContextTrigger />
+    </Trigger>
+    <Hint>Bilaga för specifikation av privata kostnader och uttag i rörelse</Hint>
+    <Description>Bilagan används för att beräkna privata kostnader och uttag i rörelsen och ger underlag till deklarationen för enskilda näringsidkare.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>BRB</FormID>
+    <Category>Övriga bilagor</Category>
+    <Name>
+      <eubas:Name>BRB  </eubas:Name>
+      <bas96:Name>BRB  </bas96:Name>
+    </Name>
+    <Caption>Ränteberäkning</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>1610-1619,2800-2899</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>1400-1443,1445-1459,1480-1499,1650-1659,2600-2699,2700-2799</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger />
+    </Trigger>
+    <Hint>Bilaga för ränteberäkning, avräkningskonton</Hint>
+    <Description>Bilaga används för att räkna fram ränta på en fordran eller skuld.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="false">
+    <FormID>BRS</FormID>
+    <Category>Övriga bilagor</Category>
+    <Name>
+      <eubas:Name>BRS  </eubas:Name>
+      <bas96:Name>BRS  </bas96:Name>
+    </Name>
+    <Caption>Rättelse av skattedeklaration</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2710-2719,2730-2731</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2510,2530,2330-2333</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger />
+    </Trigger>
+    <Hint>Bilaga för rättelse av skattedeklaration</Hint>
+    <Description>Bilagan används om en rättelse av skattedeklaration ska skickas till Skatteverket.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>BSJ</FormID>
+    <Category>Övriga bilagor</Category>
+    <Name>
+      <eubas:Name>BSJ  </eubas:Name>
+      <bas96:Name>BSJ  </bas96:Name>
+    </Name>
+    <Caption>Skattemässiga justeringar</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2510-2512,2517-2518,2110-2129</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2200-2212,2218,2850-2899</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger />
+    </Trigger>
+    <Hint>Skattemässiga justeringar</Hint>
+    <Description>På denna sidan gör du de skattemässiga justeringarna. Bilagan för över uppgifter till bilagan för Periodiseringsfond och Skatteskuld/skattefordran.</Description>
+    <Screen />
+  </specification>
+  <specification Enabled="true" Recomended="true">
+    <FormID>BSK</FormID>
+    <Category>Övriga bilagor</Category>
+    <Name>
+      <eubas:Name>BSK  </eubas:Name>
+      <bas96:Name>BSK  </bas96:Name>
+    </Name>
+    <Caption>Intäkter som inte ska tas upp/Kostn. som inte ska dras av</Caption>
+    <TaxYear>0</TaxYear>
+    <Trigger>
+      <eubas:SpecificationContextTrigger>2510-2512,2517-2518,2110-2129</eubas:SpecificationContextTrigger>
+      <bas96:SpecificationContextTrigger>2200-2212,2218,2850-2899</bas96:SpecificationContextTrigger>
+      <SpecificationContextTrigger />
+    </Trigger>
+    <Hint>Bilaga för specifikation av ej skattepliktiga intäkter och ej avdragsgilla kostnader</Hint>
+    <Description>Bilagan används för att specificera ej avdragsgilla kostnader och ej skattepliktiga intäkter.</Description>
+    <Screen />
+  </specification>
+</specification-list>

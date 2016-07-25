@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema
+  targetNamespace="http://cob.wk/specification"
+  attributeFormDefault="unqualified"
+  elementFormDefault="qualified"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns="http://cob.wk/specification"
+  xmlns:eubas="https://schema.wcsc.com/cob/specification/eubas" 
+  xmlns:bas96="https://schema.wcsc.com/cob/specification/bas96">
+  <xs:annotation>
+    <xs:documentation>Specifications</xs:documentation>
+  </xs:annotation>
+  <xs:import namespace="https://schema.wcsc.com/cob/specification/eubas" schemaLocation="EubasXSD.xsd"/>
+  <xs:import namespace="https://schema.wcsc.com/cob/specification/bas96" schemaLocation="Bas96XSD.xsd"/>
+  <xs:element name="specification-list">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="specification" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FormID" type="xs:string"/>
+              <xs:element name="Category" type="xs:string"/>
+              <xs:element name="Name">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element ref="eubas:Name" />
+                    <xs:element ref="bas96:Name"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Caption" type="xs:string"/>
+              <xs:element name="TaxYear" type="xs:integer"/>
+              <xs:element name="Trigger">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element ref="eubas:SpecificationContextTrigger" minOccurs="0">
+                      </xs:element>
+                    <xs:element ref="bas96:SpecificationContextTrigger" minOccurs="0"/>
+                    <xs:element name="SpecificationContextTrigger" type="xs:string" minOccurs="0"/>
+                    <xs:element name="SpecificationGeneralTrigger" type="xs:string" minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Hint" type="xs:string"/>
+              <xs:element name="Description" type="xs:string"/>
+              <xs:element name="Screen" type="xs:string"/>
+            </xs:sequence>
+            <xs:attribute name="Enabled" type="xs:boolean"/>
+            <xs:attribute name="Recomended" type="xs:boolean"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

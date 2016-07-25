@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema
+  targetNamespace="https://schema.wcsc.com/cob/specification/bas96"
+  attributeFormDefault="unqualified"
+  elementFormDefault="qualified"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:bas96="https://schema.wcsc.com/cob/specification/bas96">
+  <xs:element name="Name" type="xs:string"/>
+  <xs:element name="SpecificationContextTrigger" type="xs:string"/>
+</xs:schema>
